@@ -32,7 +32,16 @@ public class SignatureService implements ISignatureService {
 
     @Override
     public TextField createTextField(String name, PdfWriter writer, Rectangle rectangle, String value) throws IOException, DocumentException {
-        return null;
+        TextField text = new TextField(writer, rectangle, name);
+
+        text.setText(value);
+        text.setFontSize(10);
+        //field.setFieldName(name);
+        // set the widget properties
+
+        // add it as an annotation
+        writer.addAnnotation(text.getTextField());
+        return text;
     }
 
     @Override
@@ -84,5 +93,26 @@ public class SignatureService implements ISignatureService {
         PdfPKCS7 pkcs7 = fields.verifySignature(name);
         System.out.println("Integrity check OK? " + pkcs7.verify());
         return pkcs7;
+    }
+
+    public void certify(String keystore, String src, String password, String name, String dest)
+            throws GeneralSecurityException, IOException, DocumentException {
+        KeyStore ks = KeyStore.getInstance(KeyStore.getDefaultType());
+        ks.load(new FileInputStream(keystore), password.toCharArray());
+        String alias = (String) ks.aliases().nextElement();
+        PrivateKey pk = (PrivateKey) ks.getKey(alias, password.toCharArray());
+        Certificate[] chain = ks.getCertificateChain(alias);
+        // Creating the reader and the stamper
+        PdfReader reader = new PdfReader(src);
+        FileOutputStream os = new FileOutputStream(dest);
+        PdfStamper stamper = PdfStamper.createSignature(reader, os, '\0', null, true);
+        // Creating the appearance
+        PdfSignatureAppearance appearance = stamper.getSignatureAppearance();
+        appearance.setVisibleSignature(name);
+        appearance.setCertificationLevel(PdfSignatureAppearance.CERTIFIED_FORM_FILLING);
+        // Creating the signature
+        ExternalSignature pks = new PrivateKeySignature(pk, "SHA-256", "BC");
+        ExternalDigest digest = new BouncyCastleDigest();
+        MakeSignature.signDetached(appearance, digest, pks, chain, null, null, null, 0, MakeSignature.CryptoStandard.CMS);
     }
 }
