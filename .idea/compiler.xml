@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="rew3-docusign" target="6" />
+      <module name="rew3-docusign" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

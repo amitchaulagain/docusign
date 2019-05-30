@@ -39,12 +39,12 @@ import com.itextpdf.text.pdf.security.MakeSignature.CryptoStandard;
 import com.itextpdf.text.pdf.security.PrivateKeySignature;
 
 public class C2_10_SequentialSignatures {
-	public static final String FORM = "results/chapter2/multiple_signatures.pdf";
+	public static final String FORM = "src/main/resources/results/input/hello.pdf";
 	public static final String ALICE = "src/main/resources/alice";
 	public static final String BOB = "src/main/resources/bob";
 	public static final String CAROL = "src/main/resources/carol";
 	public static final char[] PASSWORD = "password".toCharArray();
-	public static final String DEST = "results/chapter2/signed_by_%s.pdf";
+	public static final String DEST = "src/main/resources/results/chapter2/signed_by_%s.pdf";
 	
 	public void createForm() throws IOException, DocumentException {
 		Document document = new Document();

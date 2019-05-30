@@ -100,7 +100,7 @@ public class Hero {
         PrivateKey pk = (PrivateKey) ks.getKey(alias, "11".toCharArray());
         Certificate[] chain = ks.getCertificateChain(alias);
         // Creating the reader and the stamper
-        PdfReader reader = new PdfReader(src);
+        PdfReader reader = new PdfReader(src)   ;
         FileOutputStream os = new FileOutputStream(dest);
         PdfStamper stamper = PdfStamper.createSignature(reader, os, '\0', null, true);
         // Creating the appearance
@@ -213,11 +213,11 @@ public class Hero {
         document.add(new Paragraph("my timestamp"));
 
 
-        TextField xx = app.createTextField("message_alice", writer, new Rectangle(0, 500, 100, 520), "ur name");
+        TextField xx = app.createTextField("message_alice", writer, new Rectangle(0, 500, 100, 520), "Message from Alice");
 
-        TextField yy = app.createTextField("message_bob", writer, new Rectangle(0, 530, 100, 550), "ur name");
+        TextField yy = app.createTextField("message_bob", writer, new Rectangle(0, 530, 100, 550), "Message from Bob");
 
-        TextField zz = app.createTextField("message_carol", writer, new Rectangle(0, 560, 100, 580), "ur name");
+        TextField zz = app.createTextField("message_carol", writer, new Rectangle(0, 560, 100, 580), "Message from Carol");
 
 
         document.close();

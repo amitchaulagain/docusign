@@ -2,7 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94884060-3b79-40cb-9e05-25e1464222ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promode" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/C5_01_SignatureIntegrity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/C5_02_SignatureInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/ESign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/FinalKeyStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/IKeyStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/ISignatureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/KeyStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/MyKeyStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/SignatureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/aadat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rew3-docusign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rew3-docusign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/signatures/booleant/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_10_SequentialSignatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_10_SequentialSignatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_02_SignatureInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_02_SignatureInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/results/input/hello.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results/input/hello.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/results/output/all_signed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results/output/all_signed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/results/output/done.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results/output/done.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/results/output/done1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results/output/done1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/results/output/final_hitesh_signed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results/output/final_hitesh_signed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/results/output/hero.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results/output/hero.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello_signed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello_signed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello_to_sign.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello_to_sign.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello_uncompressed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello_uncompressed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/results/input/hello.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/results/input/hello.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/results/output/all_signed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/results/output/all_signed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/results/output/done.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/results/output/done.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/results/output/done1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/results/output/done1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/results/output/final_hitesh_signed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/results/output/final_hitesh_signed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/results/output/hero.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/results/output/hero.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/C2_11_SignatureWorkflow$MySignatureFieldEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/C2_11_SignatureWorkflow$MySignatureFieldEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/C2_11_SignatureWorkflow$MyTextFieldEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/C2_11_SignatureWorkflow$MyTextFieldEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/C2_11_SignatureWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/C2_11_SignatureWorkflow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/CertificateChainGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/CertificateChainGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/booleant/JavaKeyStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/booleant/JavaKeyStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter1/C1_01_DigestDefault.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter1/C1_01_DigestDefault.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter1/C1_02_DigestBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter1/C1_02_DigestBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter1/C1_03_EncryptDecrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter1/C1_03_EncryptDecrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_01_SignHelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_01_SignHelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_02_SignHelloWorldWithTempFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_02_SignHelloWorldWithTempFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_03_SignEmptyField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_03_SignEmptyField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_04_CreateEmptyField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_04_CreateEmptyField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_05_CustomAppearance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_05_CustomAppearance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_06_SignatureAppearance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_06_SignatureAppearance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_07_SignatureAppearances.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_07_SignatureAppearances.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_08_SignatureMetadata$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_08_SignatureMetadata$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_08_SignatureMetadata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_08_SignatureMetadata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_09_SignatureTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_09_SignatureTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_10_SequentialSignatures$MySignatureFieldEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_10_SequentialSignatures$MySignatureFieldEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_10_SequentialSignatures.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_10_SequentialSignatures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_11_SignatureWorkflow$MySignatureFieldEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_11_SignatureWorkflow$MySignatureFieldEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_11_SignatureWorkflow$MyTextFieldEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_11_SignatureWorkflow$MyTextFieldEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_11_SignatureWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_11_SignatureWorkflow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_12_LockFields$MySignatureFieldEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_12_LockFields$MySignatureFieldEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_12_LockFields$MyTextFieldEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_12_LockFields$MyTextFieldEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_12_LockFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter2/C2_12_LockFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_01_SignWithCAcert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_01_SignWithCAcert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_02_GetCrlUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_02_GetCrlUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_03_SignWithCRLDefaultImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_03_SignWithCRLDefaultImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_04_SignWithCRLOnline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_04_SignWithCRLOnline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_05_SignWithCRLOffline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_05_SignWithCRLOffline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_06_GetOcspUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_06_GetOcspUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_07_SignWithOCSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_07_SignWithOCSP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_08_GetTsaUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_08_GetTsaUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_09_SignWithTSA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_09_SignWithTSA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_10_SignWithTSAEvent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_10_SignWithTSAEvent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_10_SignWithTSAEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_10_SignWithTSAEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_12_SignWithEstimatedSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter3/C3_12_SignWithEstimatedSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_01_SignatureIntegrity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_01_SignatureIntegrity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_02_SignatureInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_02_SignatureInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_03_CertificateValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_03_CertificateValidation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_04_LTV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_04_LTV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_05_CheckLTV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_05_CheckLTV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_06_ValidateLTV$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_06_ValidateLTV$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_06_ValidateLTV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/signatures/chapter5/C5_06_ValidateLTV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/itext-5.5.13-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/itext-signaturesdemo-5.5.13-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rew3-docusign-5.5.13-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/rew3-docusign-5.5.13-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,28 +172,43 @@
     <session id="192075853">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="103" />
+          <entry key="dummy" value="15" />
+          <entry key="java" value="2726" />
+          <entry key="xml" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="103" />
+          <entry key="JAVA" value="2726" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="XML" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="20" />
+          <entry key="java" value="90" />
+          <entry key="jceks" value="1" />
           <entry key="log" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="20" />
+          <entry key="JAVA" value="90" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -109,19 +216,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Cat.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/IKeyStoreService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state relative-caret-position="170">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,68 +228,96 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/cert/Certificate.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/KeyStoreService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_06_ValidateLTV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/cert/X509Certificate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="120" column="57" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
+            <state relative-caret-position="255">
+              <caret line="15" column="51" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="33" />
               <folding>
-                <element signature="e#3527#3528#0" expanded="true" />
-                <element signature="e#3557#3558#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5774#5775#0" expanded="true" />
+                <element signature="e#5805#5806#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/x509/X509CertImpl.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/ISignatureService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/SignatureService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="263">
+              <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateChainGeneration.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Ball.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="374">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/C2_11_SignatureWorkflow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2189">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Example.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Hero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2002">
+              <caret line="97" column="61" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/C5_01_SignatureIntegrity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="255" column="57" lean-forward="true" selection-start-line="255" selection-start-column="57" selection-end-line="255" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,6 +331,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -217,7 +344,21 @@
       <find>PrivateKeyEntry</find>
       <find>filter</find>
       <find>builf</find>
+      <find>MY_PRIVATE_KEY</find>
+      <find>keyStoreType</find>
+      <find>keyStorePassword</find>
+      <find>Subject:</find>
+      <find>Prot</find>
+      <find>PrivateK</find>
+      <find>PrivateKeyEntry</find>
+      <find>PrivateKey</find>
+      <find>Pr</find>
+      <find>passwor</find>
     </findStrings>
+    <replaceStrings>
+      <replace>type</replace>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -242,18 +383,32 @@
         <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/SignatureField.java" />
         <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/TextField.java" />
         <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/KeyStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/C2_11_SignatureWorkflow.java" />
         <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/KeyGen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Example.java" />
         <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/KeyGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Ball.java" />
         <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Cat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java" />
-        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Hero.java" />
         <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateChainGeneration.java" />
         <option value="$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_10_SequentialSignatures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Hero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_02_SignatureInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/C5_02_SignatureInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/C2_11_SignatureWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Ball.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Example.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/MyKeyStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/FinalKeyStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/HeroStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/ESign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/IKeyStoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/KeyStoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/ISignatureService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/signatures/booleant/SignatureService.java" />
       </list>
     </option>
   </component>
@@ -272,21 +427,11 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rew3-signature" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rew3-signature" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="1200" />
   </component>
@@ -312,6 +457,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,92 +499,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itext-signaturesdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itext-signaturesdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itext-signaturesdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itext-signaturesdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itext-signaturesdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itext-signaturesdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signatures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="booleant" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="pom.xm&#9;FILE&#9;file:///Users/admin/Downloads/i5js-tutorial-master/signatures/pom.xml&#10;CertificateCha&#9;PSI&#9;JAVA://signatures.booleant.CertificateChainGeneration&#10;hero.&#9;FILE&#9;file:///Users/admin/Downloads/i5js-tutorial-master/signatures/hero.cert&#10;hero.c&#9;FILE&#9;file:///Users/admin/Downloads/i5js-tutorial-master/signatures/hero.cert" />
+    <property name="SearchEverywhereHistoryKey" value="Meta&#9;FILE&#9;file:///Users/admin/Documents/rew3-signature/signatures/src/main/java/signatures/chapter2/C2_08_SignatureMetadata.java&#10;pom.xm&#9;FILE&#9;file:///Users/admin/Downloads/i5js-tutorial-master/signatures/pom.xml&#10;CertificateCha&#9;PSI&#9;JAVA://signatures.booleant.CertificateChainGeneration&#10;hero.&#9;FILE&#9;file:///Users/admin/Downloads/i5js-tutorial-master/signatures/hero.cert&#10;hero.c&#9;FILE&#9;file:///Users/admin/Downloads/i5js-tutorial-master/signatures/hero.cert" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555328853264" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559203813168" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/results/input" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/signatures/booleant" />
       <recent name="$PROJECT_DIR$/src/main/resources/results" />
+      <recent name="$PROJECT_DIR$/src/main/resources/results/input" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="signatures.booleant" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/results/input" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="signatures.booleant" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -452,7 +550,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaKeyStore">
+  <component name="RunManager" selected="Application.ESign">
     <configuration name="Apple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="signatures.booleant.Apple" />
       <module name="rew3-docusign" />
@@ -466,21 +564,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C5_01_SignatureIntegrity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="signatures.chapter5.C5_01_SignatureIntegrity" />
-      <module name="rew3-docusign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="signatures.chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CertificateChainGeneration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="signatures.booleant.CertificateChainGeneration" />
+    <configuration name="ESign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="signatures.booleant.ESign" />
       <module name="rew3-docusign" />
       <extension name="coverage">
         <pattern>
@@ -492,8 +577,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="signatures.booleant.Hero" />
+    <configuration name="FinalKeyStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="signatures.booleant.FinalKeyStore" />
       <module name="rew3-docusign" />
       <extension name="coverage">
         <pattern>
@@ -505,8 +590,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaKeyStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="signatures.booleant.JavaKeyStore" />
+    <configuration name="HeroStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="signatures.booleant.HeroStore" />
       <module name="rew3-docusign" />
       <extension name="coverage">
         <pattern>
@@ -518,67 +603,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="MyKeyStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="signatures.booleant.MyKeyStore" />
       <module name="rew3-docusign" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="rew3-docusign" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="signatures.booleant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Hero" />
       <item itemvalue="Application.Apple" />
-      <item itemvalue="Application.C5_01_SignatureIntegrity" />
-      <item itemvalue="Application.JavaKeyStore" />
-      <item itemvalue="Application.CertificateChainGeneration" />
+      <item itemvalue="Application.FinalKeyStore" />
+      <item itemvalue="Application.MyKeyStore" />
+      <item itemvalue="Application.HeroStore" />
+      <item itemvalue="Application.ESign" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaKeyStore" />
-        <item itemvalue="Application.C5_01_SignatureIntegrity" />
-        <item itemvalue="Application.Hero" />
-        <item itemvalue="Application.CertificateChainGeneration" />
+        <item itemvalue="Application.ESign" />
         <item itemvalue="Application.Apple" />
+        <item itemvalue="Application.HeroStore" />
+        <item itemvalue="Application.MyKeyStore" />
+        <item itemvalue="Application.FinalKeyStore" />
       </list>
     </recent_temporary>
   </component>
@@ -609,12 +660,16 @@
       <workItem from="1554958181115" duration="4951000" />
       <workItem from="1555273570017" duration="408000" />
       <workItem from="1555274042798" duration="3207000" />
-      <workItem from="1555327516510" duration="1055000" />
+      <workItem from="1555327516510" duration="3972000" />
+      <workItem from="1556520551594" duration="11861000" />
+      <workItem from="1557994186815" duration="44539000" />
+      <workItem from="1558736018567" duration="8838000" />
+      <workItem from="1559130421012" duration="7670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64109000" />
+    <option name="totallyTimeSpent" value="139934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,9 +681,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27902022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -636,8 +691,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32881662" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3152665" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32862523" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3126177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39927733" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -645,7 +700,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="SBT Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36495033" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3568738" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32791328" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -656,7 +711,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.32960597" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32960597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,55 +839,49 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java</url>
-          <line>112</line>
+          <line>115</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/KeyGenerator.class</url>
-          <line>247</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java</url>
-          <line>116</line>
+          <line>119</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java</url>
-          <line>117</line>
+          <line>120</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java</url>
-          <line>118</line>
+          <line>121</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java</url>
-          <line>251</line>
+          <line>269</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java</url>
-          <line>245</line>
+          <line>263</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java</url>
-          <line>240</line>
+          <line>258</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java</url>
-          <line>177</line>
+          <line>178</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
@@ -842,223 +891,593 @@
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/Hero.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java</url>
+          <line>251</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java</url>
+          <line>261</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java</url>
+          <line>264</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>482</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>463</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>464</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>465</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/provider/JavaKeyStore.class</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>474</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>473</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/provider/JavaKeyStore.class</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/apple/security/KeychainStore.class</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/provider/DomainKeyStore.class</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/JceKeyStore.class</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.jar!/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class</url>
+          <line>238</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/JceKeyStore.class</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/JceKeyStore.class</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/JceKeyStore.class</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/JceKeyStore.class</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/JceKeyStore.class</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/FinalKeyStore.java</url>
+          <line>269</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/FinalKeyStore.java</url>
+          <line>272</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/apple/security/KeychainStore.class</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>472</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>468</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/JceKeyStore.class</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>175</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>185</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>193</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java</url>
+          <line>477</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/SealedObject.class</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/HeroStore.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/signatures/booleant/HeroStore.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfPTable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4397">
-          <caret line="469" lean-forward="true" selection-start-line="469" selection-end-line="469" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_03_SignEmptyField.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_06_SignatureAppearance.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_03_CertificateValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/TextField.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/AddSignatureField.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/SignatureField.java" />
-    <entry file="file://$PROJECT_DIR$/hs_err_pid93303.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/Rectangle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2714">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/TextField.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_10_SequentialSignatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfStamperImp.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="1880" column="5" lean-forward="true" selection-start-line="1880" selection-start-column="5" selection-end-line="1880" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="1502" selection-start-line="1502" selection-end-line="1502" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_04_CreateEmptyField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="89" column="40" lean-forward="true" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/AcroFields.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1258" selection-start-line="1258" selection-end-line="1258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/security/MakeSignature.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2336">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfStamper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/results/output/my_keys.jks">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/key.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="68">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_05_CheckLTV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="544">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hero.cert" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alice">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_08_SignatureMetadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="68" column="10" lean-forward="true" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hero.cert">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/x509/SubjectAlternativeNameExtension.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_02_SignHelloWorldWithTempFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_01_SignHelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/x509/X509CertInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/x509/AlgorithmId.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/x509/CertificateValidity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_02_SignatureInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/x509/X509CertImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="83" column="50" lean-forward="true" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/x509/CertificateAlgorithmId.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfFormField.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateChainGeneration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="-129">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/C2_11_SignatureWorkflow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/C5_02_SignatureInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="194" column="27" selection-start-line="194" selection-start-column="27" selection-end-line="194" selection-end-column="27" />
+        <state relative-caret-position="442">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter2/C2_11_SignatureWorkflow.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/tools/keytool/Main.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state relative-caret-position="414">
+          <caret line="228" column="21" lean-forward="true" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/provider/KeyStoreDelegator.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/spec/AlgorithmParameterSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.49/bcprov-jdk15on-1.49.jar!/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="237" column="15" selection-start-line="237" selection-start-column="15" selection-end-line="237" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leela.jceks">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/provider/JavaKeyStore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
+          <caret line="190" column="19" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/apple/security/KeychainStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/provider/DomainKeyStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/KeyProtector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="202" column="41" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/SealedObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStoreSpi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="294" column="31" selection-start-line="294" selection-start-column="31" selection-end-line="294" selection-end-column="31" />
+        <state relative-caret-position="697">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/provider/JavaKeyStore.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/KeyGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/Key.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="107" column="35" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+        <state relative-caret-position="369">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/PrivateKey.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/JceKeyStore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        <state relative-caret-position="374">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/KeyGeneratorSpi.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/UnsupportedOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="17">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/MyKeyStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="1376" selection-start-line="1376" selection-end-line="1376" />
+        <state relative-caret-position="1836">
+          <caret line="119" column="62" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Example.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/HeroStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        <state relative-caret-position="1853">
+          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="117" column="57" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1072,6 +1491,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <folding>
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/FinalKeyStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4862">
+          <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/KeyStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1194" column="22" selection-start-line="1194" selection-start-column="22" selection-end-line="1194" selection-end-column="22" />
+          <folding>
+            <element signature="e#14431#14432#0" expanded="true" />
+            <element signature="e#14495#14496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/ESign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="281" lean-forward="true" selection-start-line="281" selection-end-line="281" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/IKeyStoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/KeyStoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5774#5775#0" expanded="true" />
+            <element signature="e#5805#5806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="255" column="57" lean-forward="true" selection-start-line="255" selection-start-column="57" selection-end-line="255" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1079,107 +1603,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/C2_11_SignatureWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2189">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/C5_01_SignatureIntegrity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/ISignatureService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="-2002">
+          <caret line="97" column="61" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Apple.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/SignatureService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3706">
-          <caret line="229" column="46" selection-start-line="229" selection-start-column="46" selection-end-line="229" selection-end-column="46" />
+        <state relative-caret-position="263">
+          <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/KeyGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="214" column="10" selection-start-line="214" selection-start-column="10" selection-end-line="214" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/cert/Certificate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_01_SignatureIntegrity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/chapter5/C5_06_ValidateLTV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/security/cert/X509Certificate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="120" column="57" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
-          <folding>
-            <element signature="e#3527#3528#0" expanded="true" />
-            <element signature="e#3557#3558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/x509/X509CertImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/CertificateChainGeneration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/signatures/booleant/JavaKeyStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs_err_pid14357.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1707,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>itext-signaturesdemo</last-edited>
+          <last-edited>rew3-docusign</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

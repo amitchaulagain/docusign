@@ -116,7 +116,8 @@ public class Apple {
 
         return newCert;
     }
-    private X509Certificate generateSelfSigned(KeyPair keyPair,String DN_NAME) throws CertificateException, IOException, NoSuchProviderException, NoSuchAlgorithmException, InvalidKeyException, SignatureException {
+
+    private X509Certificate generateSelfSigned(KeyPair keyPair, String DN_NAME) throws CertificateException, IOException, NoSuchProviderException, NoSuchAlgorithmException, InvalidKeyException, SignatureException {
         X509CertInfo certInfo = new X509CertInfo();
         // Serial number and version
         certInfo.set(X509CertInfo.SERIAL_NUMBER, new CertificateSerialNumber(new BigInteger(64, new SecureRandom())));
@@ -138,22 +139,22 @@ public class Apple {
         CertificateValidity validity = new CertificateValidity(validFrom, validTo);
         certInfo.set(X509CertInfo.VALIDITY, validity);
 
-        GeneralNameInterface dnsName = new DNSName("baeldung.com");
-        DerOutputStream dnsNameOutputStream = new DerOutputStream();
-        dnsName.encode(dnsNameOutputStream);
-
-        GeneralNameInterface ipAddress = new IPAddressName("127.0.0.1");
-        DerOutputStream ipAddressOutputStream = new DerOutputStream();
-        ipAddress.encode(ipAddressOutputStream);
-
-        GeneralNames generalNames = new GeneralNames();
-        generalNames.add(new GeneralName(dnsName));
-        generalNames.add(new GeneralName(ipAddress));
-
-        CertificateExtensions ext = new CertificateExtensions();
-        ext.set(SubjectAlternativeNameExtension.NAME, new SubjectAlternativeNameExtension(generalNames));
-
-        certInfo.set(X509CertInfo.EXTENSIONS, ext);
+//        GeneralNameInterface dnsName = new DNSName("baeldung.com");
+//        DerOutputStream dnsNameOutputStream = new DerOutputStream();
+//        dnsName.encode(dnsNameOutputStream);
+//
+//        GeneralNameInterface ipAddress = new IPAddressName("127.0.0.1");
+//        DerOutputStream ipAddressOutputStream = new DerOutputStream();
+//        ipAddress.encode(ipAddressOutputStream);
+//
+//        GeneralNames generalNames = new GeneralNames();
+//        generalNames.add(new GeneralName(dnsName));
+//        generalNames.add(new GeneralName(ipAddress));
+//
+//        CertificateExtensions ext = new CertificateExtensions();
+//        ext.set(SubjectAlternativeNameExtension.NAME, new SubjectAlternativeNameExtension(generalNames));
+//
+//        certInfo.set(X509CertInfo.EXTENSIONS, ext);
 
         // Create certificate and sign it
         X509CertImpl cert = new X509CertImpl(certInfo);
@@ -232,15 +233,32 @@ public class Apple {
         KeyPair keyPair = keyPairGenerator.generateKeyPair();
 
         // Generate a self signed certificate
-        X509Certificate certificate = a.generateSelfSigned(keyPair,DN_NAME);
+        X509Certificate certificate = a.generateSelfSigned(keyPair, DN_NAME);
+        X509Certificate certificate1 = a.generateSelfSigned(keyPair, "CN=gohar, OU=bol, O=bol, L=ktm, ST=test, C=CY");
 
-        X509Certificate[] certificateChain = new X509Certificate[1];
+
+        X509Certificate[] certificateChain = new X509Certificate[2];
         certificateChain[0] = certificate;
+
+        certificateChain[1] = certificate1;
         ks.setKeyEntry(MY_PRIVATE_KEY, keyPair.getPrivate(), password, certificateChain);
+
+
+        X509Certificate[] certificateChain2 = new X509Certificate[1];
+        X509Certificate certificate2 = a.generateSelfSigned(keyPair, "CN=jal, OU=jal, O=jal, L=ktm, ST=test, C=CY");
+
+
+        certificateChain2[0] = certificate2;
+        ks.setKeyEntry("hero", keyPair.getPrivate(), password, certificateChain2);
+
+        X509Certificate hero_certificate = a.generateSelfSigned(keyPair, "CN=atif aslam, OU=bol, O=bol, L=ktm, ST=test, C=CY");
+
+        ks.setCertificateEntry("lala", hero_certificate);
+
 
         java.io.FileOutputStream fosi = null;
         try {
-            fos = new java.io.FileOutputStream("amit");
+            fos = new java.io.FileOutputStream("aadat");
             ks.store(fos, password);
         } finally {
             if (fos != null) {

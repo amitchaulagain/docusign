@@ -36,8 +36,10 @@ public class C2_01_SignHelloWorld {
 	public static final String KEYSTORE = "src/main/resources/ks";
 	public static final char[] PASSWORD = "password".toCharArray();
 	public static final String SRC = "src/main/resources/hello.pdf";
-	public static final String DEST = "results/chapter2/hello_signed%s.pdf";
-	
+	public static final String DEST = "src/main/resources/results/chapter2/hello_signed%s.pdf";
+	public static final String AADAT = "src/main/resources/aadat";
+
+
 	public void sign(String src, String dest,
 			Certificate[] chain,
 			PrivateKey pk, String digestAlgorithm, String provider,
@@ -68,9 +70,30 @@ public class C2_01_SignHelloWorld {
         PrivateKey pk = (PrivateKey) ks.getKey(alias, PASSWORD);
         Certificate[] chain = ks.getCertificateChain(alias);
 		C2_01_SignHelloWorld app = new C2_01_SignHelloWorld();
-		app.sign(SRC, String.format(DEST, 1), chain, pk, DigestAlgorithms.SHA256, provider.getName(), CryptoStandard.CMS, "Test 1", "Ghent");
-		app.sign(SRC, String.format(DEST, 2), chain, pk, DigestAlgorithms.SHA512, provider.getName(), CryptoStandard.CMS, "Test 2", "Ghent");
-		app.sign(SRC, String.format(DEST, 3), chain, pk, DigestAlgorithms.SHA256, provider.getName(), CryptoStandard.CADES, "Test 3", "Ghent");
-		app.sign(SRC, String.format(DEST, 4), chain, pk, DigestAlgorithms.RIPEMD160, provider.getName(), CryptoStandard.CADES, "Test 4", "Ghent");
+		app.signJCEKS(AADAT, "src/main/resources/hello.pdf", "sig2", "src/main/resources/thatsit.pdf");
 	}
+
+	public void signJCEKS(String keystore,
+						  String src, String name, String dest)
+			throws GeneralSecurityException, IOException, DocumentException {
+
+
+		KeyStore ks = KeyStore.getInstance("jceks");
+		ks.load(new FileInputStream(keystore), "11".toCharArray());
+		String alias = (String) ks.aliases().nextElement();
+		PrivateKey pk = (PrivateKey) ks.getKey("myprivatekey", "11".toCharArray());
+		Certificate[] chain = ks.getCertificateChain("myprivatekey");
+		// Creating the reader and the stamper
+		PdfReader reader = new PdfReader(src)   ;
+		FileOutputStream os = new FileOutputStream(dest);
+		PdfStamper stamper = PdfStamper.createSignature(reader, os, '\0', null, true);
+		// Creating the appearance
+		PdfSignatureAppearance appearance = stamper.getSignatureAppearance();
+		appearance.setVisibleSignature(name);
+		// Creating the signature
+		ExternalSignature pks = new PrivateKeySignature(pk, "SHA-256", "BC");
+		ExternalDigest digest = new BouncyCastleDigest();
+		MakeSignature.signDetached(appearance, digest, pks, chain, null, null, null, 0, CryptoStandard.CMS);
+	}
+
 }

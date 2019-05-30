@@ -109,8 +109,11 @@ public class JavaKeyStore {
 
         KeyGenerator keygen = KeyGenerator.getInstance("HmacSHA256");
         SecretKey secretKey = keygen.generateKey();
+
+
+
         //ideally, password should be different for every key
-        KeyStore.ProtectionParameter protParam = new KeyStore.PasswordProtection(KEYSTORE_PWD.toCharArray());
+        KeyStore.ProtectionParameter protParam = new KeyStore.PasswordProtection("hero".toCharArray());
         KeyStore.SecretKeyEntry secretKeyEntry = new KeyStore.SecretKeyEntry(secretKey);
         keyStore.setEntry(MY_SECRET_ENTRY, secretKeyEntry, protParam);
 

@@ -26,7 +26,7 @@ import com.itextpdf.text.pdf.security.SignaturePermissions;
 import com.itextpdf.text.pdf.security.SignaturePermissions.FieldLock;
 
 public class C5_02_SignatureInfo extends C5_01_SignatureIntegrity {
-	public static final String EXAMPLE1 = "results/chapter2/step_4_signed_by_alice_bob_carol_and_dave.pdf";
+	public static final String EXAMPLE1 = "results/output/final_hitesh_signed.pdf";
 	public static final String EXAMPLE2 = "results/chapter3/hello_cacert_ocsp_ts.pdf";
 	public static final String EXAMPLE3 = "results/chapter3/hello_token.pdf";
 	public static final String EXAMPLE4 = "results/chapter2/hello_signed4.pdf";
@@ -98,10 +98,10 @@ public class C5_02_SignatureInfo extends C5_01_SignatureIntegrity {
 		Security.addProvider(provider);
 		C5_02_SignatureInfo app = new C5_02_SignatureInfo();
 		app.inspectSignatures(EXAMPLE1);
-		app.inspectSignatures(EXAMPLE2);
-		app.inspectSignatures(EXAMPLE3);
-		app.inspectSignatures(EXAMPLE4);
-		app.inspectSignatures(EXAMPLE5);
-		app.inspectSignatures(EXAMPLE6);
+//		app.inspectSignatures(EXAMPLE2);
+//		app.inspectSignatures(EXAMPLE3);
+//		app.inspectSignatures(EXAMPLE4);
+//		app.inspectSignatures(EXAMPLE5);
+//		app.inspectSignatures(EXAMPLE6);
 	}
 }
